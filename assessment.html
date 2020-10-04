@@ -6,6 +6,7 @@
   </head>
   <body>
     <h2>3 Random NC Facts</h2>
+      <hr>
       <p><strong> Many </strong>people believe that in 1775 North Carolina became the first colony to declare independence from Great Britain. After the American Revolution, North Carolina became the twelfth state of the Union.
       </p>
       <p>
@@ -16,12 +17,58 @@
       <p><strong>The </strong> 20th century saw North Carolina transformed into a modern state, a transformation that began when the Wright Brothers flew the first airplane in Kitty Hawk, North Carolina in 1903.
       </p>
 
-      <h2>UNC CHAMPIONSHIP TABLE</h2>
-        <table>
+      <h2>UNC 2017 CHAMPIONSHIP TABLE</h2>
+        <hr>
+        <table border="20">
+          <thead>
+            <tr>
+              <th colspan="4">Score by Half</th>
+            </tr>
+              <th rowspan="2">Team</th>
+              <th scope="col">First Half</th>
+              <th scope="col">Second Half</th>
+              <th rowspan="2">Final</th>
+
+            <tr>
+              <th>q1</th>
+              <th>q2</th>
+            </tr>
+            </thead>
+
+
+            <tbody>
+
+
+                <tr>
+                  <th scope="col">North Carolina</th>
+                  <td><strong>32</strong></td>
+                  <td><strong>39</strong></td>
+                  <td><strong>71</strong></td>
+                </tr>
+                <tr>
+                  <th scope="col">Gonzaga</th>
+                  <td>35</td>
+                  <td>30</td>
+                  <td>65</td>
+                </tr>
+            </tbody>
+          <tfoot>
+            <tr>
+              <td>
+                <blockquote>
+                <em>Total</em>
+                </blockquote>
+            </td>
+              <td><em>67</em></td>
+              <td><em>69</em></td>
+              <td><em>136</em></td>
+            </tr>
+          </tfoot>
 
         </table>
 
       <h2> LIST OF TOP 5 UNC PLAYERS ALL TIME AND GREATEST COACH</h2>
+        <hr>
         <p>
              <img src = "https://images.squarespace-cdn.com/content/v1/5717ee8e1bbee08525c09f91/1467218453546-VUVFIGA06LTW44THI8WL/ke17ZwdGBToddI8pDm48kDmvgM2_GYudIur22MWWiLdZw-zPPgdn4jUwVcJE1ZvWbXp56nf11SnS_qfjffZkKPut3m2EIRkoOCEuUXL6Bqkp2ryTI0HqTOaaUohrI8PIXyG0yvYkPWhmdBGX2vkB_YiAUKNiMdWjg3F-5_xWlZ4/image-asset.png?format=300w" height="100">
               <br>
@@ -31,26 +78,56 @@
                   <br>
                   <li><strong>Back Court Positions</strong></li>
                     <ol>
-                      <li>Michael Jordan</li>
-                      <li>Phil Ford</li>
-                      <li>Vince Carter</li>
+                      <li>Michael Jordan, SG</li>
+                      <li>Phil Ford, PG</li>
+                      <li>Vince Carter, SG</li>
                     </ol>
                   <li><strong>Front Court Positions</strong></li>
                     <ol>
-                      <li>Tyler Hansbrough</li>
-                      <li>James Worthy</li>
+                      <li>Tyler Hansbrough, C</li>
+                      <li>James Worthy, SF</li>
                     </ol>
                 </ul>
 
 
-        <form action="collectData.html">
-        <input type="text"/>
-        <input type="text"/>
-        <input type = "radio" name = "pet" value = "dog"> dog
-        <input type = "radio" name = "pet" value = "dog"> dogD
-        <input type = "radio" name = "dog" value = "pit"> dogD
-        <input type = "radio" name = "cat" value = "meow"> dogD
-        <input type="submit"/>
+        <form action="">
+          <h2>FORM</h2>
+          <hr>
+          <label for="First Name"> First:</label>
+            <input type="text" name = "First Name" id = "First Name"/>
+          <label for="Last Name">Last:</label>
+            <input type="text" name = "Last Name" id = "Last Name"/>
+            <br>
+          <label for="Favorite Sport">Favorite Sport?</label>
+            <select id="Favorite Sport" name="sport">
+              <option value="Baseball">Baseball</option>
+              <option value="Basketball">Basketball</option>
+              <option value="Football">Football</option>
+              <option value="Soccer">Soccer</option>
+              <option value="Hockey">Hockey</option>
+
+            </select>
+
+            <br>
+
+
+          <label for="action">I have</label>
+            <input type = "checkbox" name = "attended" id = "action"> Attended
+            <input type = "checkbox" name = "played" id = "action" > Played
+            <input type = "checkbox" name = "coached" id = "action"> Coached
+            <input type = "checkbox" name = "bet" if = "action"> Bet on
+
+
+            <br>
+
+          <label for="">For this sport I prefer </label>
+            <input type="radio" name="level" id=""> Over Seas
+            <input type="radio" name="level" id=""> College
+            <input type="radio" name="level" id=""> Professional
+            <br>
+
+          <input type="Submit" value="Submit Query"/>
+
         </form>
 
   </body>
