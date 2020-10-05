@@ -1,0 +1,44 @@
+.subjectHeader{
+  color: red;
+  font-family: sans-serif;
+}
+
+#scoreBoard {
+  border: 5px solid black;
+  text-align: center;
+}
+
+th {
+  color: green;
+}
+
+#teamRoster {
+  list-style-type: square;
+
+}
+
+#teamRoster  li {
+  list-style-type: square;
+}
+
+#teamRoster > li {
+  [alt ~= Logo];
+  background-position: center;
+}
+
+
+}
+
+a:hover {
+  background-color: orange;
+  text-decoration: none;
+}
+
+blockquote {
+  background-color: blue;
+  color: orange;
+}
+#checkbox-grid {
+  list-style-type: none;
+
+}
