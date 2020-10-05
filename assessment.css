@@ -12,21 +12,12 @@ th {
   color: green;
 }
 
-#teamRoster {
+#teamRoster > ul {
   list-style-type: square;
-
 }
 
 #teamRoster  li {
   list-style-type: square;
-}
-
-#teamRoster > li {
-  [alt ~= Logo];
-  background-position: center;
-}
-
-
 }
 
 a:hover {
